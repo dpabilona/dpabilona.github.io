@@ -52,12 +52,23 @@
 			$('#myInput').focus()
 		})
 	</script>
+	<script>
+	happy= <img src="http://i.huffpost.com/gen/1416645/thumbs/o-KANYE-WEST-facebook.jpg"height=200 width=500>
+    offg= <img src="http://runwayriot.com/wp-content/uploads/2016/01/kanye-640x472.jpg"height=300 width=100>
+    mad= <img src="http://static.vibe.com/files/article_teaser_images/kanye-west-vibe-1.jpg"height=200 width=500>
+    upset= <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKz_5JJqik0itWwtU8lhA_ndhacKN62jzmy8uGHa0Gi8oYBGWxzg">
+    noword= <img src="http://pbs.twimg.com/media/BnuR0lEIAAErKMU.png">
+	var list = ["happy", "offg", "mad", "upset", "noword"];
+	</script>
 	<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
 
 <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-      <img src="http://i.huffpost.com/gen/1416645/thumbs/o-KANYE-WEST-facebook.jpg"height=200 width=200>
+     <script>
+     var rand = list[Math.floor(Math.random() * list.lenth)];
+      </script>
+      
     </div>
   </div>
 </div>
